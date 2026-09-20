@@ -123,6 +123,7 @@ SCMCF/
 ├── examples/
 │   ├── run_scmcf.py       # single-mechanism demonstration
 │   └── run_comparison.py  # cross-mechanism endpoint comparison
+├── Supplementary_Material.pdf  # supplementary material of the paper
 ├── requirements.txt
 └── LICENSE
 ```
