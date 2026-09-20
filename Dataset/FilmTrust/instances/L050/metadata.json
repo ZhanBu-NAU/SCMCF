@@ -1,0 +1,55 @@
+{
+  "L": 50,
+  "M": 927,
+  "N": 223,
+  "artifacts": {
+    "alternatives.csv": {
+      "sha256": "7a0dc33f2ab298f4409f472cd1f84ce7d55fae5d4af06d358f5cbd1610c07857",
+      "size_bytes": 860
+    },
+    "edges.csv": {
+      "sha256": "8c39b2b1242fe268e2158c0d8bc98b1d52171b061841a6445b17b2fad5bd7d84",
+      "size_bytes": 6336
+    },
+    "nodes.csv": {
+      "sha256": "9f8c5c35eddf5a5f62d2ae1d6b1a7a06c05587e38d9f85d22a6a3b4af7868d7b",
+      "size_bytes": 3521
+    },
+    "preferences.npz": {
+      "sha256": "5d223380ba01cc4374369a10b9b0bd13a5008d3294249076f74ac5fb6b67e1f2",
+      "size_bytes": 8025
+    },
+    "preferences_sparse.csv": {
+      "sha256": "5ee10672c2685c662325f5b7ef8789b3d1afdc6e89bb3478bc4f4c9fc74b53d1",
+      "size_bytes": 57505
+    }
+  },
+  "construction": {
+    "dimension_selection": "descending observed-rating frequency",
+    "dm_filter": "at least one observation in the selected dimensions",
+    "topology_filter": "largest strongly connected component of the induced directed graph"
+  },
+  "coverage": 0.34699551569506726,
+  "dataset": "FilmTrust",
+  "dataset_key": "filmtrust",
+  "initial_preference_file": "preferences.npz",
+  "missing_value": 0.5,
+  "observation_mask_key": "O",
+  "observed_cells": 3869,
+  "preference_key": "P",
+  "profile": "L050",
+  "profile_l_requested": 50,
+  "schema_version": "cosma-observed-scc-instance-v1",
+  "source_artifacts": {
+    "edges.csv": "d807ef2f4909b4596bf13e91cd876ffb046e4fc54e69a264f0577bbdd64fdd72",
+    "metadata.json": "23da007cb36dea32a922a84d16ccf8e613b5e29de0e9d726bdefe80dc925ef4a",
+    "profiles/L050/alternatives.csv": "b7ab3d978eb69467bb4bf8e9aa3c9d47704881006e6de47546b9f527cedd6818",
+    "profiles/L050/preferences_sparse.csv": "d87e110de3b487aaab2903833d0edaa5a803d7d1c97bd0cd810b21174347233e"
+  },
+  "source_protocol_version": "cosma-real-v2",
+  "validation": {
+    "every_dimension_observed": true,
+    "every_dm_observed": true,
+    "strongly_connected": true
+  }
+}

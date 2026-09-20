@@ -1,0 +1,55 @@
+{
+  "L": 50,
+  "M": 62640,
+  "N": 3168,
+  "artifacts": {
+    "alternatives.csv": {
+      "sha256": "4f5a8f00e11c2fcd93db6f0fa7e26a3e31b1f9d14940f0f3b2e708fcd7da6b94",
+      "size_bytes": 1057
+    },
+    "edges.csv": {
+      "sha256": "6a120585cb10e3f265c6e7991f67cbc7f7e313fdda9aa43f75aaebe5858cd2b5",
+      "size_bytes": 548418
+    },
+    "nodes.csv": {
+      "sha256": "b974f560d2b18c7cd6f234569bdce3b957989250631f73d680c61fc9c47f6550",
+      "size_bytes": 61317
+    },
+    "preferences.npz": {
+      "sha256": "53d4a08ef2fd26817ab275198f620e72ebffd11069d0890391c11e526c2d66fc",
+      "size_bytes": 44939
+    },
+    "preferences_sparse.csv": {
+      "sha256": "6a43e8d2afa06cde77f3f0f049629aa222b5b6fe0e27daff15736a91d95a62a3",
+      "size_bytes": 141326
+    }
+  },
+  "construction": {
+    "dimension_selection": "descending observed-rating frequency",
+    "dm_filter": "at least one observation in the selected dimensions",
+    "topology_filter": "largest strongly connected component of the induced directed graph"
+  },
+  "coverage": 0.0874810606060606,
+  "dataset": "Ciao",
+  "dataset_key": "ciao",
+  "initial_preference_file": "preferences.npz",
+  "missing_value": 0.5,
+  "observation_mask_key": "O",
+  "observed_cells": 13857,
+  "preference_key": "P",
+  "profile": "L050",
+  "profile_l_requested": 50,
+  "schema_version": "cosma-observed-scc-instance-v1",
+  "source_artifacts": {
+    "edges.csv": "82e43f8e44577832d6344d312c8bc78dd62d1c06aa00012038c6e826d58aa570",
+    "metadata.json": "f1554536b513b8fb9be47df6bc86ceb240c071a8cebfc27df3b3ac5ffdb49a1f",
+    "profiles/L050/alternatives.csv": "cf38fa450315458f79fe458256b7ab78d0669d1346084b12dad2e6bea0cb3198",
+    "profiles/L050/preferences_sparse.csv": "bfbde4a84de0f80b183bddd1ce2e8ed0ec1b37ec64e5883053514c156e63261e"
+  },
+  "source_protocol_version": "cosma-real-v2",
+  "validation": {
+    "every_dimension_observed": true,
+    "every_dm_observed": true,
+    "strongly_connected": true
+  }
+}

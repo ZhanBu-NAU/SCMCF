@@ -1,0 +1,132 @@
+{
+  "L_full": 84,
+  "M": 251652,
+  "N": 41773,
+  "alternative_mapping": "descending frequency; source-id/label ascending tie break",
+  "coloring_method": {
+    "color_selection": "smallest feasible color index",
+    "colors": 114,
+    "conflict_graph_materialized": false,
+    "impact_set": "self + in-neighbors",
+    "name": "impact-set-ordered greedy first-fit",
+    "ordering": "descending impact-set size, descending out-degree, ascending node id"
+  },
+  "community_method": {
+    "communities": 39,
+    "name": "directed Leiden modularity",
+    "runs": [
+      {
+        "communities": 39,
+        "modularity": 0.7688737105719765,
+        "seed": 11
+      },
+      {
+        "communities": 53,
+        "modularity": 0.7621792879931852,
+        "seed": 23
+      },
+      {
+        "communities": 42,
+        "modularity": 0.7681385839294765,
+        "seed": 37
+      },
+      {
+        "communities": 45,
+        "modularity": 0.7676224178471553,
+        "seed": 53
+      },
+      {
+        "communities": 47,
+        "modularity": 0.7673204548002007,
+        "seed": 71
+      },
+      {
+        "communities": 53,
+        "modularity": 0.7611853373661855,
+        "seed": 89
+      },
+      {
+        "communities": 45,
+        "modularity": 0.7660177089664024,
+        "seed": 107
+      },
+      {
+        "communities": 45,
+        "modularity": 0.7650208833725026,
+        "seed": 131
+      },
+      {
+        "communities": 41,
+        "modularity": 0.7683877474011465,
+        "seed": 163
+      },
+      {
+        "communities": 53,
+        "modularity": 0.7611066400029112,
+        "seed": 197
+      }
+    ],
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71,
+      89,
+      107,
+      131,
+      163,
+      197
+    ],
+    "selected_modularity": 0.7688737105719765,
+    "selected_seed": 11,
+    "selection": "maximum modularity; smallest seed breaks ties within 1e-12"
+  },
+  "dataset_key": "deezer_ro",
+  "display_name": "Deezer RO",
+  "edge_semantics": "mutual friendship represented by reciprocal directed arcs",
+  "missing_policy": "explicit_zero",
+  "missing_value": 0.0,
+  "node_mapping": "contiguous 0-based ids ordered by ascending source node id",
+  "preference_normalization": "binary liked genre: liked=1, otherwise=0",
+  "profile_dimensions": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    84
+  ],
+  "protocol_version": "cosma-real-v2",
+  "raw_files": [
+    {
+      "path": "C:\\Users\\卜湛\\Desktop\\Github\\Dataset\\OpenDataLab_Deezer\\OpenDataLab___Deezer_User_Networks\\raw\\GEMSEC\\data\\deezer_clean_data\\RO_edges.csv",
+      "sha256": "90cf9ade81aaac852f4aca3a5b2d023f0eff8f97089be28e4eaa0cd7518a81a1",
+      "size_bytes": 1443116
+    },
+    {
+      "path": "C:\\Users\\卜湛\\Desktop\\Github\\Dataset\\OpenDataLab_Deezer\\OpenDataLab___Deezer_User_Networks\\raw\\GEMSEC\\data\\deezer_clean_data\\RO_genres.json",
+      "sha256": "97ec1f3e4ded9fbbbfdbf5d4bf21c0c592d8d52f3797b1d95dd25d8e05c00bf9",
+      "size_bytes": 3615864
+    }
+  ],
+  "source_kind": "binary_friendship",
+  "source_statistics": {
+    "country": "RO",
+    "directed_edges": 251652,
+    "genres": 84,
+    "graph_users": 41773,
+    "likes": 252132,
+    "undirected_edges": 125826,
+    "users_with_genre_records": 41773,
+    "users_without_genre_records": 0
+  },
+  "validation": {
+    "color_impact_overlap_count": 0,
+    "contiguous_node_ids": true,
+    "one_color_per_node": true,
+    "one_community_per_node": true,
+    "preference_domain_0_1": true,
+    "strongly_connected": true
+  }
+}

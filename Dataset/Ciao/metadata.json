@@ -1,0 +1,126 @@
+{
+  "L_full": 102730,
+  "M": 109766,
+  "N": 6535,
+  "alternative_mapping": "descending frequency; source-id/label ascending tie break",
+  "coloring_method": {
+    "color_selection": "smallest feasible color index",
+    "colors": 778,
+    "conflict_graph_materialized": false,
+    "impact_set": "self + in-neighbors",
+    "name": "impact-set-ordered greedy first-fit",
+    "ordering": "descending impact-set size, descending out-degree, ascending node id"
+  },
+  "community_method": {
+    "communities": 14,
+    "name": "directed Leiden modularity",
+    "runs": [
+      {
+        "communities": 11,
+        "modularity": 0.5283842597921963,
+        "seed": 11
+      },
+      {
+        "communities": 35,
+        "modularity": 0.5087581868508925,
+        "seed": 23
+      },
+      {
+        "communities": 15,
+        "modularity": 0.5307064958712863,
+        "seed": 37
+      },
+      {
+        "communities": 37,
+        "modularity": 0.5061404068529476,
+        "seed": 53
+      },
+      {
+        "communities": 18,
+        "modularity": 0.5316119525100119,
+        "seed": 71
+      },
+      {
+        "communities": 25,
+        "modularity": 0.5238900099662541,
+        "seed": 89
+      },
+      {
+        "communities": 14,
+        "modularity": 0.5323675681064097,
+        "seed": 107
+      },
+      {
+        "communities": 14,
+        "modularity": 0.5304913711737607,
+        "seed": 131
+      },
+      {
+        "communities": 17,
+        "modularity": 0.520085052207481,
+        "seed": 163
+      },
+      {
+        "communities": 14,
+        "modularity": 0.532486780712804,
+        "seed": 197
+      }
+    ],
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71,
+      89,
+      107,
+      131,
+      163,
+      197
+    ],
+    "selected_modularity": 0.532486780712804,
+    "selected_seed": 197,
+    "selection": "maximum modularity; smallest seed breaks ties within 1e-12"
+  },
+  "dataset_key": "ciao",
+  "display_name": "Ciao",
+  "edge_semantics": "source trusts target; influence flows target to source",
+  "missing_policy": "neutral_0.5",
+  "missing_value": 0.5,
+  "node_mapping": "contiguous 0-based ids ordered by ascending source node id",
+  "preference_normalization": "(r - 1) / 4",
+  "profile_dimensions": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "protocol_version": "cosma-real-v2",
+  "raw_files": [
+    {
+      "path": "C:\\Users\\卜湛\\Desktop\\Github\\Dataset\\Ciao\\raw\\ciao.zip",
+      "sha256": "dee78c18b4a0843791e82b522f632a1166296e6048537b13b18c281a12e8f741",
+      "size_bytes": 1275594
+    }
+  ],
+  "source_kind": "rating_trust",
+  "source_statistics": {
+    "common_rating_trust_users": 7317,
+    "dropped_rating_rows_below_1": 34,
+    "largest_scc_edges": 109766,
+    "largest_scc_nodes": 6535,
+    "raw_rating_rows": 284052,
+    "raw_trust_rows": 111781,
+    "retained_observed_preferences": 269681,
+    "unique_user_item_ratings": 282619
+  },
+  "validation": {
+    "color_impact_overlap_count": 0,
+    "contiguous_node_ids": true,
+    "one_color_per_node": true,
+    "one_community_per_node": true,
+    "preference_domain_0_1": true,
+    "strongly_connected": true
+  }
+}
