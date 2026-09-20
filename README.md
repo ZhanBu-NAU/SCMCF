@@ -20,8 +20,9 @@ the next preference-evolution step. The implementation provides
 - the SCMCF specialization with topology-driven overlapping-community
   initialization, compatible-class batched response sweeps, and deterministic
   simplex-QP responses,
-- ten external CRP baselines (SNDG, TEDG, DGBC, DTRF, DTLC, OCRF, DCRTF, OBCF,
-  OCCF, NGPF) through a common adapter interface,
+- ten external CRP baselines---SNDG [4], TEDG [5], DGBC [6], DTRF [7],
+  DTLC [8], OCRF [9], DCRTF [10], OBCF [11], OCCF [12], and NGPF [13]---through
+  a common adapter interface,
 - the four threshold-attainment metrics used in the paper: $T_\mu$, $CI_{\min}$,
   TPA, and CPA,
 - the nine retained network–preference profiles (FilmTrust, Ciao, and three
@@ -142,7 +143,9 @@ If you use this code, please cite the accompanying article:
 }
 ```
 
-## Dataset references
+## References
+
+Datasets:
 
 [1] G. Guo, J. Zhang, and D. Thalmann, "Merging trust in collaborative
 filtering to alleviate data sparsity and cold start," *Knowl.-Based Syst.*,
@@ -153,6 +156,54 @@ prediction," *Proc. WSDM*, 2012 (Ciao).
 
 [3] B. Rozemberczki, R. Davies, R. Sarkar, and C. Sutton, "GEMSEC: Graph
 embedding with self-clustering," *Proc. ASONAM*, 2019 (Deezer networks).
+
+External baselines:
+
+[4] Z. Ding, X. Chen, Y. Dong, and F. Herrera, "Consensus reaching in social
+network DeGroot model: The roles of the self-confidence and node degree,"
+*Inf. Sci.*, vol. 486, pp. 62–72, 2019 (SNDG).
+
+[5] Y. Zhang, X. Chen, L. Gao, Y. Dong, and W. Pedrycz, "Consensus reaching
+with trust evolution in social network group decision making," *Expert Syst.
+Appl.*, vol. 188, 116022, 2022 (TEDG).
+
+[6] Z. Wu, Q. Zhou, Y. Dong, J. Xu, A. H. Altalhi, and F. Herrera, "Mixed
+opinion dynamics based on DeGroot model and Hegselmann–Krause model in social
+networks," *IEEE Trans. Syst., Man, Cybern., Syst.*, vol. 53, no. 1,
+pp. 296–308, 2023 (DGBC).
+
+[7] S. Guo, R.-X. Ding, M.-N. Li, Z. Shi, X. Wang, and F. Chiclana,
+"Interactive dynamic trust network for consensus reaching in social network
+analysis based large-scale decision making," *Expert Syst. Appl.*, vol. 255,
+124578, 2024 (DTRF).
+
+[8] W.-C. Zou, S.-P. Wan, and J.-Y. Dong, "Trust evolution based minimum
+adjustment consensus framework with dynamic limited compromise behavior for
+probabilistic linguistic large scale group decision-making," *Inf. Sci.*,
+vol. 652, 119724, 2024 (DTLC).
+
+[9] R.-X. Ding, B. Yang, Y. Huang, Y. Zhang, and F. Chiclana, "Social
+network-based overlapping community clustering and feedback mechanism for
+large-scale group decision making," *Eur. J. Oper. Res.*, vol. 329, no. 2,
+pp. 518–535, 2026 (OCRF).
+
+[10] F. Teng, X. Liu, and P. Liu, "Overlapping community-driven dynamic
+consensus reaching model of large-scale group decision making in social
+network," *Inf. Sci.*, vol. 685, 121290, 2024 (DCRTF).
+
+[11] Y.-M. Wang, H.-H. Song, B. Dutta, D. García-Zamora, and L. Martínez,
+"Consensus reaching in LSGDM: Overlapping community detection and bounded
+confidence-driven feedback mechanism," *Inf. Sci.*, vol. 679, 121104,
+2024 (OBCF).
+
+[12] T. Gai, J. Wu, F. Chiclana, M. Cao, and R. R. Yager, "Dynamic compromise
+behavior driven bidirectional feedback mechanism for group consensus with
+overlapping communities in social network," *IEEE Trans. Syst., Man, Cybern.,
+Syst.*, vol. 54, no. 10, pp. 6149–6161, 2024 (OCCF).
+
+[13] N. Lang, L. Wang, and Q. Zha, "Network game in group decision making:
+Managing consensus with incentive and interaction interventions," *Eur. J.
+Oper. Res.*, vol. 329, pp. 950–965, 2026 (NGPF).
 
 ## License
 
