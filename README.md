@@ -172,24 +172,25 @@ opinion dynamics based on DeGroot model and Hegselmann–Krause model in social
 networks," *IEEE Trans. Syst., Man, Cybern., Syst.*, vol. 53, no. 1,
 pp. 296–308, 2023 (DGBC).
 
-[7] S. Guo, R.-X. Ding, M.-N. Li, Z. Shi, X. Wang, and F. Chiclana,
-"Interactive dynamic trust network for consensus reaching in social network
-analysis based large-scale decision making," *Expert Syst. Appl.*, vol. 255,
-124578, 2024 (DTRF).
+[7] J. Wu, S. Wang, F. Chiclana, and E. Herrera-Viedma, "Two-fold
+personalized feedback mechanism for social network consensus by uninorm
+interval trust propagation," *IEEE Trans. Cybern.*, vol. 52, no. 10,
+pp. 11081-11092, 2022 (DTRF).
 
-[8] W.-C. Zou, S.-P. Wan, and J.-Y. Dong, "Trust evolution based minimum
-adjustment consensus framework with dynamic limited compromise behavior for
-probabilistic linguistic large scale group decision-making," *Inf. Sci.*,
-vol. 652, 119724, 2024 (DTLC).
+[8] P. Liu, Y. Li, and P. Wang, "Opinion dynamics and minimum
+adjustment-driven consensus model for multi-criteria large-scale group
+decision making under a novel social trust propagation mechanism,"
+*IEEE Trans. Fuzzy Syst.*, vol. 31, no. 1, pp. 307-321, 2023 (DTLC).
 
 [9] R.-X. Ding, B. Yang, Y. Huang, Y. Zhang, and F. Chiclana, "Social
 network-based overlapping community clustering and feedback mechanism for
 large-scale group decision making," *Eur. J. Oper. Res.*, vol. 329, no. 2,
 pp. 518–535, 2026 (OCRF).
 
-[10] F. Teng, X. Liu, and P. Liu, "Overlapping community-driven dynamic
-consensus reaching model of large-scale group decision making in social
-network," *Inf. Sci.*, vol. 685, 121290, 2024 (DCRTF).
+[10] Z. Hua, S. Xu, J. Wang, J. Liu, and L. Martinez, "Bilevel consensus
+in large-scale group decision making: Integrating structural holes and
+community dynamics," *IEEE Trans. Fuzzy Syst.*, vol. 34, no. 4,
+pp. 1282-1294, 2026 (DCRTF).
 
 [11] Y.-M. Wang, H.-H. Song, B. Dutta, D. García-Zamora, and L. Martínez,
 "Consensus reaching in LSGDM: Overlapping community detection and bounded
