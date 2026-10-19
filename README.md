@@ -137,7 +137,7 @@ If you use this code, please cite the accompanying article:
 @article{bu2026scmcf,
   title   = {Prospective Feedback Games for Consensus Reaching in Social
              Network Group Decision Making with Incomplete Preferences},
-  author  = {Bu, Zhan and Zhao, Ziyi and Zhang, Shanfan and Wang, Yuyao},
+  author  = {Anonymous Authors}, % updated with the full author list upon acceptance
   journal = {(to appear)},
   year    = {2026}
 }
